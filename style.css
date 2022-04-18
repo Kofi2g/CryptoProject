@@ -15,6 +15,7 @@
     --nav-font: 'Lekton', sans-serif;
     --white: #ffff;
     --fs-primary: clamp(4rem,19vh,10rem);
+    --container: #262626;
 }
 
 /* reset styles */
@@ -107,6 +108,10 @@ footer {
 /* HEADINGS OF SOCIAL/PROMO */
 .container p:nth-child(2) {
     font-size: clamp(1rem,4vh,3rem);
+}
+
+.container {
+    background-color: var(--container);
 }
 
 /*---------- MEDIA QUERIES ---------- */
@@ -207,6 +212,10 @@ footer {
             justify-content: center;
             align-items: center;
             padding: 1rem;
+        }
+
+        .container {
+            padding: .05rem;
         }
 
         .container-heading {
