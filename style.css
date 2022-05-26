@@ -63,6 +63,7 @@ button {
     margin: .5rem;
     color: white;
     background: rgba(158,192,149,1);
+    cursor: pointer;
 }
 
 
